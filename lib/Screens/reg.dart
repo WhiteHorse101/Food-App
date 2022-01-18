@@ -18,12 +18,13 @@ class _regState extends State<reg> {
         children: <Widget>[
           Image.asset('assets/headerimg.jpg'),
           Container(
+            padding: EdgeInsets.fromLTRB(20, 40, 0, 0),
             child: Text(
-              "India's #1 Food Delivery and Dining App",
+              "India's #1 Food Delivery \n  and Dining App",
               style: TextStyle(
                 fontFamily: 'Metropolis',
                 fontSize: 28,
-                fontWeight: FontWeight.w600,
+                fontWeight: FontWeight.w800,
               ),
             ),
           ),
