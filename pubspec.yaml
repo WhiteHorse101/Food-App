@@ -85,6 +85,12 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/metropolis.semi-bold.otf
+        - asset: assets/fonts/metropolis.light.otf
+        - asset: assets/fonts/metropolis.medium.otf
+        - asset: assets/fonts/metropolis.regular.otf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
