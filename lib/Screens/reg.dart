@@ -71,16 +71,34 @@ class _regState extends State<reg> {
               ),
             )),
           ]),
-          Container(
-            padding: EdgeInsets.all(8.0),
+          SizedBox(
+            width: 350,
             child: Material(
-              elevation: 5,
+              elevation: 8,
+              shadowColor: Colors.black,
               child: TextField(
-                textInputAction: TextInputAction.send,
-                keyboardType: TextInputType.number,
                 style: TextStyle(
                   fontSize: 18,
-                  fontWeight: FontWeight.w800,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.black,
+                ),
+                textInputAction: TextInputAction.send,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(
+                  prefixIcon: Padding(
+                    padding: EdgeInsets.all(15),
+                    child: Text(
+                      '+91 ',
+                      style: TextStyle(color: Colors.black, fontSize: 16),
+                    ),
+                  ),
+                  hintText: 'Enter mobile number',
+                  enabledBorder: const OutlineInputBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(10),
+                    ),
+                    borderSide: BorderSide(color: Colors.white),
+                  ),
                 ),
               ),
             ),
