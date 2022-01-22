@@ -97,8 +97,27 @@ class _regState extends State<reg> {
                     borderRadius: BorderRadius.all(
                       Radius.circular(10),
                     ),
-                    borderSide: BorderSide(color: Colors.white),
+                    borderSide: BorderSide.none,
                   ),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(
+            width: 350,
+            height: 50,
+            child: ElevatedButton(
+              onPressed: () {},
+              child: Text(
+                "Continue",
+                style: TextStyle(
+                    fontFamily: 'Metropolis',
+                    fontWeight: FontWeight.w600,
+                    fontSize: 18),
+              ),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10.0),
                 ),
               ),
             ),
